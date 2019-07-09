@@ -18,10 +18,11 @@
     <link rel="dns-prefetch" href="http://kimhou.github.io">
     <!--SEO-->
 
-    <meta name="keywords" content>
+    <meta name="keywords" content="微信 公众号 网页授权">
 
 
-    <meta name="description" content>
+    <meta name="description" content="在微信侧打开指定H5页面（比如通过扫描URL二维码的方式）时，可以通过微信网页授权的方式获取到用户的openId和用户信息。
+主要分为静默授权（用户无感知）和弹出授权页面用户点击按钮主动授权两种...">
 
 
 
@@ -33,7 +34,7 @@
     <!--Title-->
 
 
-<title>Archives: 2019/7 | 梦寻千里</title>
+<title>微信网页授权流程 | 梦寻千里</title>
 
 
     <link rel="alternate" href="/atom.xml" title="梦寻千里" type="application/atom+xml">
@@ -116,87 +117,111 @@
     <section class="content-wrap">
         <div class="container">
             <div class="row">
-                <main class="col-md-8 main-content ">
-                    <div id="main">
-     <div class="timebox">
-          <div class="timeline">
-              <ul>
+                <main class="col-md-8 main-content m-post">
+                    <p id="process"></p>
+<article class="post">
+    <div class="post-head">
+        <h1 id="微信网页授权流程">
+            
+	            微信网页授权流程
+            
+        </h1>
+        <div class="post-meta">
+    
+        <span class="categories-meta fa-wrap">
+            <i class="fa fa-folder-open-o"></i>
+            
+        </span>
+    
+
+    
+        <span class="fa-wrap">
+            <i class="fa fa-tags"></i>
+            <span class="tags-meta">
                 
+                    <a class="tag-link" href="/tags/微信-公众号-网页授权/">微信 公众号 网页授权</a>
                 
-                    
-                    
-                        
-                            
-                            <h2>2019</h2>
-                        
-                        
-                          <li class="">
-                        
-                            <h3>
-                              09<span>07月</span>
-                            </h3>
-                            <a href="/2019/07/09/wechat-auth-h5/" title="微信网页授权流程" target="_blank">微信网页授权流程</a>
-                        </li>
-                    
-                
-              </ul>
-          </div>
-    </div>
+            </span>
+        </span>
+    
+
+    
+        
+        <span class="fa-wrap">
+            <i class="fa fa-clock-o"></i>
+            <span class="date-meta">2019/07/09</span>
+        </span>
+        
+    
 </div>
+            
+            
+    </div>
+    
+    <div class="post-body post-content">
+        <p>在微信侧打开指定H5页面（比如通过扫描URL二维码的方式）时，可以通过微信网页授权的方式获取到用户的openId和用户信息。</p>
+<p>主要分为静默授权（用户无感知）和弹出授权页面用户点击按钮主动授权两种方式。</p>
+<h2 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h2><ul>
+<li>准备一个微信服务号，订阅号不支持</li>
+<li>微信服务号需要通过微信认证</li>
+</ul>
+
+    </div>
+    
+        <div class="reward" ontouchstart>
+    <div class="reward-wrap">赏
+        <div class="reward-box">
+            
+            
+                <span class="reward-type">
+                    <img class="wechat" src="/img/reward-wepay.jpg"><b>微信打赏</b>
+                </span>
+            
+        </div>
+    </div>
+    <p class="reward-tip">期待你的鼓励</p>
+</div>
+
+
+    
+    <div class="post-footer">
+        <div>
+            
+                转载声明：商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="http://kimhou.github.io" target="_blank">CopyRight@2019</a>
+            
+        </div>
+        <div>
+            
+        </div>
+    </div>
+</article>
+
+<div class="article-nav prev-next-wrap clearfix">
+    
+    
+</div>
+
+
+    <div id="comments">
+        
+   <p>评论系统未开启，无法评论！</p>
+
+    </div>
+
+
 
 
 
                 </main>
                 
-                    
-    <aside class="col-md-4 sidebar">
-        
-        
+                    <aside id="article-toc" role="navigation" class="col-md-4">
     <div class="widget">
-        <h3 class="title">Archives</h3>
-        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/"><i class="fa" aria-hidden="true">2019年07月</i></a><span class="archive-list-count">1</span></li></ul>
-    </div>
-
-
+        <h3 class="title">Table of Contents</h3>
         
-        
-
-        
-        
-  <div class="widget">
-    <h3 class="title">Tag Cloud</h3>
-    <div class="content tag-cloud">
-        
-            <canvas width="300" height="300" id="tag-cloud-3d">
-                <a href="/tags/微信-公众号-网页授权/" style="font-size: 10px;">微信 公众号 网页授权</a>
-            </canvas>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前提条件"><span class="toc-text">前提条件</span></a></li></ol>
         
     </div>
-  </div>
-
-
-        
-        
-    <div class="widget">
-      <h3 class="title">Social</h3> 
-        <div class="content social">
-            
-	            <a href="//github.com/kimhou" rel="external nofollow" title="Github" target="_blank">
-			    	<i class="git fa fa-git"></i>
-			    </a>
-            
-	            <a href="mailto:honkang@163.com" rel="external nofollow" title="邮箱" target="_blank">
-			    	<i class="envelope-o fa fa-envelope-o"></i>
-			    </a>
-            
-        </div>
-    </div>
-
-
-        
-        
-        
-    </aside>
+</aside>
 
                 
             </div>

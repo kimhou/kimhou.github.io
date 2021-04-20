@@ -21,4 +21,4 @@ jobs:
         branch: gh-pages
         folder: build
         clean: true
-        ssh-key: ${{ secrets.PAGE_ACTIONS }}
+        ssh-key: ${{ secrets.DEPLOY_KEY }}
